@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@layer utilities {
+  .btn {
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22px;
+    text-transform: uppercase;
+    background-color: #0e1866;
+    color: white;
+    padding: 0.75rem 1.75rem;
+    border-radius: 0.25rem;
+  }
+  .main-sidebar {
+    padding: 63px 9px;
+  }
+  .side-bar-component {
+    width: 230px;
+    height: 1184px;
+    flex-shrink: 0;
+  }
+  .sideP {
+    line-height: normal;
+    font-family: Poppins;
+  }
+  .sidebarBottom {
+    display: inline-flex;
+    height: 993px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 525px;
+    flex-shrink: 0;
+    margin: 50px 58px 35px 41px;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 41px;
+  }
+  .logo {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  .logoP {
+    color: #0b63f8;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+  }
+  .logoP2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.32px;
+  }
+
+  /* main dashboard css */
+  .dash-container {
+    padding-top: 56.1px;
+    padding-left: 2rem;
+    width: 1501px;
+    height: 1241px;
+  }
+  .upperDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 1129px;
+    align-items: center;
+    /* padding-left: 20px; */
+  }
+  .inputDiv {
+    width: 655px;
+
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+    background: #fff;
+  }
+  input[type="text"] {
+    /* Your styles here */
+    color: #ada7a7;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .s {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+  }
+  .user {
+    /* border: 2px solid pink; */
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .bell-box {
+    display: flex;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    align-items: center;
+    background: #fff;
+  }
+  .bell {
+    width: 24px;
+    height: 24px;
+  }
+  .singleUser {
+    width: 52px;
+    height: 52px;
+
+    border-radius: 10px;
+  }
+
+  /* Dashboard */
+
+  .heading {
+    display: flex;
+    border: 2px solid black;
+    width: 131px;
+    height: 30px;
+  }
+  .heading > h2 {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+  }
+}
